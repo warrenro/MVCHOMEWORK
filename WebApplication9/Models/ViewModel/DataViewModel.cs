@@ -8,7 +8,6 @@ namespace WebApplication9.Models.ViewModel
 {
     public class DataViewModel
     {
-
         [DisplayName("#")]
         public int ID { get; set; }
         [DisplayName("類別")]
@@ -19,6 +18,5 @@ namespace WebApplication9.Models.ViewModel
         public string InputDate { get; set; }
         [DisplayName("備註")]
         public string Message { get; set; }
-
     }
 }

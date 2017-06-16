@@ -32,7 +32,6 @@ namespace WebApplication9.Controllers
         {
             var grid = new List<DataViewModel>
             {
-
                 new DataViewModel {ID=1,Category="out",InputDate="2017/06/09",Money=1000,Message="AAA" },
                 new DataViewModel {ID=2,Category="out",InputDate="2017/06/09",Money=1000,Message="AAA" },
                 new DataViewModel {ID=3,Category="out",InputDate="2017/06/09",Money=1000,Message="AAA" },

@@ -12,10 +12,8 @@ namespace WebApplication9.Controllers
         // GET: Data
         public ActionResult Input()
         {
-            return View();
-
+            return View();     
         }
-
 
         //public ActionResult Output()
         //{
