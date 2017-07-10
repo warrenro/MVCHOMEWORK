@@ -1,0 +1,11 @@
+[
+  {
+    "outputFileName": "Scripts/bundle.js",
+    "inputFiles": [
+      "Scripts/bootstrap.js",
+      "Scripts/bootstrap.min.js",
+      "Scripts/jquery-1.10.2.intellisense.js",
+      "Scripts/jquery-1.10.2.js"
+    ]
+  }
+]

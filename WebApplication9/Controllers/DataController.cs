@@ -10,10 +10,8 @@ namespace WebApplication9.Controllers
     public class DataController : Controller
     {
         // GET: Data
-        public ActionResult Input()
-        {
-            return View();     
-        }
+        
+
 
         //public ActionResult Output()
         //{

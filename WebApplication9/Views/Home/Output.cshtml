@@ -1,21 +1,11 @@
 ﻿@model IEnumerable<WebApplication9.Models.ViewModel.DataViewModel>
 
-
 @{
     Layout = null;
 }
 
-<!DOCTYPE html>
 
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Output</title>
-</head>
-<body>
-    @*<p>
-        @Html.ActionLink("Create New", "Create")
-    </p>*@
+
     <table class="table">
         <tr>
             <th>
@@ -30,9 +20,9 @@
             <th>
                 @Html.DisplayNameFor(model => model.InputDate)
             </th>
-            @*<th>
+            <th>
                 @Html.DisplayNameFor(model => model.Message)
-            </th>*@
+            </th>
             <th></th>
         </tr>
     
@@ -50,9 +40,9 @@
             <td>
                 @Html.DisplayFor(modelItem => item.InputDate)
             </td>
-            @*<td>
+            <td>
                 @Html.DisplayFor(modelItem => item.Message)
-            </td>*@
+            </td>
             @*<td>
                 @Html.ActionLink("Edit", "Edit", new { id=item.ID }) |
                 @Html.ActionLink("Details", "Details", new { id=item.ID }) |
@@ -62,5 +52,5 @@
     }
     
     </table>
-</body>
-</html>
+
+

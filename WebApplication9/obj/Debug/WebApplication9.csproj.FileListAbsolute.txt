@@ -197,6 +197,8 @@ C:\GitHub\MVCHOMEWORK\WebApplication9\bin\zh-Hant\Microsoft.Owin.Security.Facebo
 C:\GitHub\MVCHOMEWORK\WebApplication9\bin\zh-Hant\Microsoft.Owin.Security.Google.resources.dll
 C:\GitHub\MVCHOMEWORK\WebApplication9\bin\zh-Hant\Microsoft.Owin.Security.Twitter.resources.dll
 C:\GitHub\MVCHOMEWORK\WebApplication9\bin\zh-Hant\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
-C:\GitHub\MVCHOMEWORK\WebApplication9\obj\Debug\WebApplication9.csprojResolveAssemblyReference.cache
 C:\GitHub\MVCHOMEWORK\WebApplication9\obj\Debug\WebApplication9.dll
 C:\GitHub\MVCHOMEWORK\WebApplication9\obj\Debug\WebApplication9.pdb
+C:\GitHub\MVCHOMEWORK\WebApplication9\bin\Dapper.dll
+C:\GitHub\MVCHOMEWORK\WebApplication9\bin\Dapper.xml
+C:\GitHub\MVCHOMEWORK\WebApplication9\obj\Debug\WebApplication9.csprojResolveAssemblyReference.cache
