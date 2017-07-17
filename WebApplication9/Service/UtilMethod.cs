@@ -10,30 +10,6 @@ namespace WebApplication9.Service
 {
     public class UtilMethod
     {
-       
-
-        //public List<SelectListItem> CategoryList()
-        //{
-        //    List<SelectListItem> list = new List<SelectListItem>();
-
-        //    var conn = new SqlConnection(ConfigurationManager.ConnectionStrings["conn"].ConnectionString);
-                
-                  
-        //    var query = conn.Query("select Categoryyy from AccountBook").AsList();
-        //    conn.Close();
-                 
-
-        //    foreach
-        //    (var listData in query)
-        //    {list.Add(new SelectListItem
-        //        { Text = listData.Categoryyy.ToString(),
-        //          Value = listData.Categoryyy.ToString()
-        //    });
-        //    }
-        //    return list;
-
-        //}
-
         public List<DataViewModel> grid()
         {
             
@@ -65,15 +41,7 @@ namespace WebApplication9.Service
                 });
             }
             return list;
-
-           
-
-
-
-            
-        }
-
-        
+        }  
     }
 }
 

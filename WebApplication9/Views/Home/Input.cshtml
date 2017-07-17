@@ -5,26 +5,15 @@
     @Html.AntiForgeryToken()
     
     <div class="form-horizontal">
-        @*<h4>DataViewModel</h4>*@
+        
         <hr />
         @Html.ValidationSummary(true, "", new { @class = "text-danger" })
         @Html.HiddenFor(model => model.ID)
-
-
         <div class="form-group">
             @Html.LabelFor(model => model.Category, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @*@Html.EditorFor(model => model.Category, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.Category, "", new { @class = "text-danger" })*@
-                @*<select id="category" class="form-control">
-                    <option value="" selected>請選擇</option>
-                    <option>支出</option>
-                    <option>收入</option>
-                </select>*@
-                
-                @Html.DropDownListFor(model => model.CategoryList, Model.CategoryList)               
-                @*@Html.DropDownList("list1",Model.CategoryList)*@
-                @*@Html.ValidationMessageFor(model => model.Category, "", new { @class = "text-danger" })*@
+            @Html.DropDownListFor(model => model.CategoryList, Model.CategoryList)               
+               
             </div>
         </div>
 
@@ -59,11 +48,6 @@
         </div>
     </div>
 }
-
-@*<div>
-    @Html.ActionLink("Back to List", "Index")
-</div>*@
-
-@section Scripts {
+{
     @Scripts.Render("~/bundles/jqueryval")
 }

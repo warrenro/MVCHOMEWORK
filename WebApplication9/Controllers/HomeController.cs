@@ -32,18 +32,11 @@ namespace WebApplication9.Controllers
 
         public ActionResult Output()
         {
-            //var grid = new List<DataViewModel>();
-
-            //    for (int i = 1; i < 10; i++)
-            //    {
-            //    grid.Add(new DataViewModel { ID = i, Category = "out", InputDate = DateTime.Parse("2017/06/09"), Money = 1000, Message = "AAA" });
-
-            //    }
-
-
-
-            //return View(grid);
             getData();
+            var viewmodel = new DataViewModel()
+            {
+
+            };
             return View(ViewBag.grid);
         }
 
@@ -64,30 +57,22 @@ namespace WebApplication9.Controllers
                 Value = "0",
                 Selected = false
             });
-
-            //var inputCategory = new List<DataViewModel>();
-
-
-            //inputCategory.Add(new DataViewModel { CategoryList = mySelectItemList });
-
+            
             var viewmodel = new DataViewModel()
             {
                 CategoryList = mySelectItemList
             };
 
-
-
-
             return View(viewmodel);
-            //getData();
-            //return View(ViewBag.CategoryList);
+            
         }
 
         private void getData()
         {
             UtilMethod UM = new UtilMethod();
-            //ViewBag.CategoryList = UM.CategoryList();
             ViewBag.grid = UM.grid();
+       
+            
         }
 
 

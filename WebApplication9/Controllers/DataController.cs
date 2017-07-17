@@ -9,20 +9,6 @@ namespace WebApplication9.Controllers
 {
     public class DataController : Controller
     {
-        // GET: Data
         
-
-
-        //public ActionResult Output()
-        //{
-        //    var grid = new List<DataViewModel>
-        //    {
-        //        new DataViewModel {ID=1,Category="out",InputDate="2017/06/09",Money=1000,Message="AAA" },
-        //        new DataViewModel {ID=1,Category="out",InputDate="2017/06/09",Money=1000,Message="AAA" },
-        //        new DataViewModel {ID=1,Category="out",InputDate="2017/06/09",Money=1000,Message="AAA" }
-        //    };
-
-        //    return View(grid);
-        //}
     }
 }
